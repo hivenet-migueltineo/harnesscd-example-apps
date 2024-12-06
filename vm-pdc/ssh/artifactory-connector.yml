@@ -2,7 +2,7 @@ connector:
   name: harness_artifactrepo
   identifier: harness_artifactrepo
   orgIdentifier: default
-  projectIdentifier: default_project
+  projectIdentifier: hivenetenterprise
   type: Artifactory
   spec:
     artifactoryServerUrl: https://harness.jfrog.io/artifactory

@@ -3,10 +3,10 @@ connector:
   identifier: harness_pdc
   description: ""
   orgIdentifier: default
-  projectIdentifier: default_project
+  projectIdentifier: hivenetenterprise
   type: Pdc
   spec:
     hosts:
-      - hostname: HOST_IP_OR_FQDN
+      - hostname: basil.enterprise.hivenet.com
     delegateSelectors:
-      - DELEGATE_NAME
+      - docker-delegate
