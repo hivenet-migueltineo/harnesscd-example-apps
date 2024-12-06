@@ -1,7 +1,7 @@
 pipeline:
   name: harness_ssh_pipeline
   identifier: harness_ssh_pipeline
-  projectIdentifier: default_project
+  projectIdentifier: hivenetenterprise
   orgIdentifier: default
   tags: {}
   stages:
@@ -26,7 +26,7 @@ pipeline:
             environmentRef: harnessdevenv
             deployToAll: false
             infrastructureDefinitions:
-              - identifier: harness_remoteserver
+              - identifier: hivenetenterprisedev
           execution:
             steps:
               - step:

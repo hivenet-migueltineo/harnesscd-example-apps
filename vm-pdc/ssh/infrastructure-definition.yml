@@ -1,16 +1,16 @@
 infrastructureDefinition:
-  name: harness_remoteserver
-  identifier: harness_remoteserver
+  name: hivenet-enterprise-infra
+  identifier: hivenetenterprisedev
   description: ""
   tags: {}
   orgIdentifier: default
-  projectIdentifier: default_project
+  projectIdentifier: hivenetenterprise
   environmentRef: harnessdevenv
   deploymentType: Ssh
   type: Pdc
   spec:
     connectorRef: harness_pdc
-    credentialsRef: harness_sshprivatekey
+    credentialsRef: hivenetenterprisedev
     hostFilter:
       type: All
       spec: {}
